@@ -11,6 +11,7 @@
   "author": "\"Shivam_Shah\"",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
@@ -22,6 +23,7 @@
     "multer": "^1.4.5-lts.1",
     "nodemon": "^3.0.3",
     "otp-generator": "^4.0.1",
+    "package.json": "^2.0.1",
     "uuid": "^9.0.1"
   }
 }
