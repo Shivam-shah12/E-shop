@@ -23,10 +23,7 @@ const server=createServer(app);
 // app uses
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({
-    origin: process.env.FRONTEND_URL,
-    credentials:true
-}))
+app.use(cors())
 app.use("/api/user",user);
 app.use("/api/seller",seller);
 app.use("/",common);
